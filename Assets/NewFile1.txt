@@ -1,0 +1,7 @@
+- Certains paramètre de méthodes n'ont pas de type
+
+- Certaines flèches se condondent => compréhension difficile
+
+- Type de l'objet manquant (monobehavior, scriptableObject, GameObject, etc)
+
+- Les choix derrières certaines couleurs sont trompeurs (ex : 1 class c# et une mono mais les 2 oranges)
