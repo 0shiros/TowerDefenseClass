@@ -1,7 +1,7 @@
 
 using System;
 
-enum GamePhase
+public enum GamePhase
 {
     Build,
     Wave,
