@@ -16,6 +16,10 @@ public class Enemy : MonoBehaviour, IDamageable, ISlowable, ITargetable
     private float speedMultiplier;
     public Health Health { get; }
     public event Action<Enemy> ReachedGoal;
+    
+    public Vector2 Position { get; }
+    public float RemainingDistance { get; }
+    public bool IsAlive { get; }
 
     public void Init(EnemyDefinition def, IPathCursor path)
     {
@@ -31,6 +35,7 @@ public class Enemy : MonoBehaviour, IDamageable, ISlowable, ITargetable
     {
         throw new NotImplementedException();
     }
+
 }
 
 

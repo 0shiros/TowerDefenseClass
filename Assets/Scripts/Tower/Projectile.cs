@@ -13,8 +13,8 @@ public class Projectile : MonoBehaviour
         
     }
 
-    private HitContext OnHit()
-    {
-        
-    }
+    // private HitContext OnHit()
+    // {
+    //     
+    // }
 }
