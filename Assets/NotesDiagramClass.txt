@@ -1,0 +1,15 @@
+- Certains paramètre de méthodes n'ont pas de type
+
+- Certaines flèches se condondent => compréhension difficile
+
+- Type de l'objet manquant (monobehavior, scriptableObject, GameObject, etc)
+
+- Les choix derrières certaines couleurs sont trompeurs (ex : 1 class c# et une monobehavior mais les 2 oranges)
+
+- J'ai pas compris la majorité des liaisons entre scripts
+
+- Pq les ennemis ont un bounty et un liveCost
+
+- Bcp de fct sont en privé mais devrais être public (ex : waypoints : Transfrom[] ; definition : EnemyDefinition)
+
+- Je n'ai pas compris le but de la classe c# Health

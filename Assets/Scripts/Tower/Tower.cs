@@ -1,6 +1,8 @@
 
 
-public class Tower
+using UnityEngine;
+
+public class Tower : MonoBehaviour
 {
     private TowerDefinition definition;
     private EnemyRegistery registery;
@@ -9,7 +11,8 @@ public class Tower
     
     public void Init(TowerDefinition def, EnemyRegistery registry)
     {
-        
+        definition = def;
+        this.registery = registry;
     }
 
     public void ApplyUpgrade(TowerDefinition def, int cost)
