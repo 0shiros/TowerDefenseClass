@@ -13,3 +13,7 @@
 - Bcp de fct sont en privé mais devrais être public (ex : waypoints : Transfrom[] ; definition : EnemyDefinition)
 
 - Je n'ai pas compris le but de la classe c# Health
+
+- Les sous catégories sont bien (Enemy, Path, Waves) mais certaines nodes pourraient quand même être relié au lieu d'être en double (ex : ITargetable, Enemy Registery)
+
+- Je suppose que la Tour est censer repéré les ennemis, faire spawn le projectile puis lui donner les infos pour que ce dernier aille lui-même sur l'ennemi

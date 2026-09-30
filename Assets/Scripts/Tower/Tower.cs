@@ -7,8 +7,8 @@ public class Tower : MonoBehaviour
     private TowerDefinition definition;
     private EnemyRegistery registery;
     private float cooldown;
-    public int TotalInvested { get; }
-    
+    public int TotalInvested { get; set; }
+
     public void Init(TowerDefinition def, EnemyRegistery registry)
     {
         definition = def;
@@ -17,7 +17,8 @@ public class Tower : MonoBehaviour
 
     public void ApplyUpgrade(TowerDefinition def, int cost)
     {
-        
+        definition = def;
+        TotalInvested += cost;
     }
     
     private void Fire(ITargetable target)

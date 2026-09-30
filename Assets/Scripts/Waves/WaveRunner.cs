@@ -13,7 +13,7 @@ public class WaveRunner : MonoBehaviour, IWaveRunner
     
     public void Run(WaveDefinition wave)
     {
-        throw new NotImplementedException();
+        
     }
 
     private IEnumerator SpawnGroup(SpawnGroup group)
